@@ -82,13 +82,6 @@
       min-height: 100vh;
     }
 
-    .parallax {
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
-
     #about {
       background-color: #1e1e1e;
       text-align: center;
@@ -108,8 +101,10 @@
     }
 
     #services {
-      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1556742400-b5d18b43febe') center/cover no-repeat;
-      position: relative;
+      background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1556742400-b5d18b43febe');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
     #services h2, #about h2, #contact h2 {
@@ -191,7 +186,7 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <header class="parallax">
+  <header>
     <h1>Thanthry & Associates</h1>
     <p>Chartered Accountants | Trusted Advisors since 2014</p>
   </header>
@@ -202,7 +197,7 @@
     <p>Established in 2014 by CA Ashish Thanthry, Thanthry and Associates is a dynamic CA firm committed to excellence in accounting, compliance, and security. Our unique blend of expertise in finance, audit, and information systems enables us to serve startups, enterprises, and professionals with precision and care.</p>
   </section>
 
-  <section id="services" class="parallax">
+  <section id="services">
     <h2>Our Services</h2>
     <div class="service-list">
       <div class="service-item">
@@ -226,9 +221,9 @@
 
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>Email: meashishp@gmail.com</p>
-    <p>Phone: +91-8976972597</p>
-    <p>Location: Thane, India</p>
+    <p>Email: contact@thanthry.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>Location: Bengaluru, India</p>
   </section>
 
   <footer>
